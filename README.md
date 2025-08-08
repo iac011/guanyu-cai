@@ -40,7 +40,7 @@ Currently, Dr. Cai leads an AI-assisted, data-driven research initiative for nex
 - 2024 (April), Best Researcher Award in Persistent luminescence / AMO physics
 - 2019 (June - Sept.), the winner of Erasmus+ Master exchange scholarship / TU Dresden in Germany,
 
-📄 **[Full Awards & Grants →](https://iac011.github.io/guanyu-cai/awards.html)**
+📄 **[Full Awards & Grants →](https://iac011.github.io/guanyu-cai/awards_grants.html)**
 
 ---
 
