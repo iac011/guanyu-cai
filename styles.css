@@ -1,0 +1,52 @@
+/* styles.css - Unified style for Dr. Guanyu Cai personal site */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+:root{
+  --bg:#081016;
+  --card:#0f1720;
+  --muted:#9aa8b3;
+  --accent:#00d4ff;
+  --accent-2:#00bfb3;
+  --success:#2dd4bf;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  background:var(--bg);
+  color:#e6eef6;
+  -webkit-font-smoothing:antialiased;
+}
+header.site-header{
+  text-align:center;
+  padding:48px 20px;
+  background:linear-gradient(90deg,#071018 0%, #0b1a25 100%);
+}
+.header-inner{max-width:1100px;margin:0 auto;}
+.header-inner img{width:150px;height:150px;border-radius:50%;border:4px solid var(--accent);object-fit:cover;}
+.header-inner h1{color:var(--accent);margin:12px 0 6px;font-size:2.2rem;}
+.header-inner p.lead{color:var(--muted);margin:0 0 10px;font-size:1.05rem;}
+.nav{background:#07090b;padding:10px 0;border-top:1px solid rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.02);}
+.nav .nav-inner{max-width:1100px;margin:0 auto;text-align:center;}
+.nav a{color:#cfeaf7;text-decoration:none;margin:0 12px;font-weight:500;}
+.nav a:hover{color:var(--accent);}
+.container{max-width:1100px;margin:28px auto;padding:0 20px;}
+.card{background:var(--card);padding:20px;border-radius:10px;border:1px solid rgba(255,255,255,0.02);box-shadow:0 6px 18px rgba(2,6,23,0.6);margin-bottom:20px;}
+h2{color:var(--accent);margin-top:0;display:inline-block;border-bottom:2px solid rgba(0,212,255,0.08);padding-bottom:6px;}
+.lead-small{color:var(--muted);margin-bottom:12px;}
+.flex{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap;}
+.col{flex:1 1 320px;min-width:260px;}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;}
+.badge{background:rgba(255,255,255,0.03);padding:6px 10px;border-radius:999px;font-size:0.9rem;color:var(--muted);border:1px solid rgba(255,255,255,0.02);}
+.list{padding-left:18px;color:#d6e8f2;}
+.list li{margin-bottom:8px;}
+.flowchart{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:18px;}
+.flow-step{background:#07111a;padding:18px;border-radius:10px;border:2px solid rgba(0,212,255,0.08);min-width:180px;text-align:center;}
+.flow-step i{font-size:1.6rem;color:var(--accent);display:block;margin-bottom:8px;}
+.footer{padding:20px;text-align:center;color:var(--muted);border-top:1px solid rgba(255,255,255,0.02);margin-top:28px;}
+.btn{display:inline-block;padding:10px 14px;background:var(--accent);color:#001018;border-radius:8px;font-weight:600;text-decoration:none;}
+.timeline{border-left:2px solid rgba(255,255,255,0.03);padding-left:16px;margin-top:12px;}
+.timeline-item{margin-bottom:14px;padding-left:12px;}
+@media(max-width:720px){
+  .header-inner h1{font-size:1.6rem;}
+  .header-inner img{width:120px;height:120px;}
+}
